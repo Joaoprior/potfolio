@@ -1,0 +1,80 @@
+/* style.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.perfil {
+  width: 120px;        /* tamanho da foto */
+  height: 130px;
+  border-radius: 50%;  /* deixa a foto redonda */
+  display: block;
+  margin: 1rem auto;   /* centraliza a foto */
+  object-fit: cover;   /* ajusta a imagem dentro do círculo */
+  border: 3px solid #222; /* borda opcional */
+}
+
+
+
+/* Corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* fundo claro */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
