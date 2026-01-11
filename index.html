@@ -1,61 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - João Vitor Prior Rosa</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor Prior • Portfólio</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>João Vitor Prior Rosa</h1>
-    <p>Desenvolvedor em formação | Foco em Sistemas e Web</p>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
 
-  <div class="container">
-   <section id="sobre">
-  <h2>Sobre Mim</h2>
-  <img src="joao.png" alt="Foto de João Vitor" class="perfil">
-  <p>Sou estudante de Análise e Desenvolvimento de Sistemas (Estácio Liberdade) e tenho interesse em desenvolvimento web, automação e programação. Busco oportunidades de estágio na área de TI para aplicar e expandir meus conhecimentos.</p>
-</section>
+    <!-- HEADER -->
+    <header class="header">
+        <h1 class="logo">João Prior</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+        <img src="sua-foto.jpg" class="foto-perfil" alt="Foto de perfil">
 
-    <section id="projetos">
-      <h2>Projetos</h2>
-      <div class="project">
-        <h3>Site E-commerce (Growth Suplementos)</h3>
-        <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
-        <p>Desenvolvimento de um site de e-commerce fictício para suplementos, com foco em layout responsivo e usabilidade.</p>
-       <a href="https://joaoprior.github.io/site-growth/" target="_blank">
-       🔗 Acessar projeto
-</a>
+        <h2>Sobre Mim</h2>
 
-      </div>
-
-      <div class="project">
-        <h3>Automação Residencial</h3>
-        <p><strong>Tecnologias:</strong> Python, SQL, APIs de automação, IoT</p>
-        <p>Projeto em grupo que consistiu na criação de uma lâmpada e fechadura inteligentes, com integração de sensores, agendamento e segurança de acesso.</p>
-      </div>
+        <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia 
+            e desenvolvimento web. Tenho experiência com HTML, CSS, JavaScript, Python e SQL.
+            Busco uma oportunidade de estágio em TI para evoluir profissionalmente e participar 
+            de projetos reais.
+        </p>
     </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>📧 Email: <a href="mailto:joaoprior61@gmail.com" >joaoprior61@gmail.com</a></p>
-      <p>📞 Telefone: (11) 99452-1999</p>
-      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/jo%C3%A3o-prior-350a11296?utm_source=share&utm_" target="_blank">linkedin.com/in/seu-link</a></p>
-    </section>
-  </div>
+    <!-- PROJETOS -->
+    <section id="projetos" class="projetos">
+        <h2>Projetos</h2>
 
-  <footer>
-    <p>&copy; 2025 João Vitor Prior Rosa</p>
-  </footer>
+        <div class="card">
+            <h3>🌐 E-commerce de Suplementos</h3>
+            <p>Site responsivo com foco em experiência do usuário.</p>
+            <div class="techs">
+                <span class="tech">HTML</span>
+                <span class="tech">CSS</span>
+                <span class="tech">JavaScript</span>
+            </div>
+            <a href="#" class="btn" target="_blank">Ver Projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>💡 Automação Residencial</h3>
+            <p>Controle de luz e fechadura inteligente usando Python.</p>
+            <div class="techs">
+                <span class="tech">Python</span>
+                <span class="tech">SQL</span>
+                <span class="tech">API</span>
+            </div>
+            <a href="#" class="btn" target="_blank">Ver Projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Gerador de Senhas</h3>
+            <p>Aplicação simples e eficiente para criar senhas seguras.</p>
+            <div class="techs">
+                <span class="tech">JavaScript</span>
+                <span class="tech">HTML</span>
+                <span class="tech">CSS</span>
+            </div>
+            <a href="#" class="btn" target="_blank">Ver Projeto</a>
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+
+        <p>📧 joaoprior61@gmail.com</p>
+        <p>📱 (11) 99452-1999</p>
+        <p>🔗 <a href="https://linkedin.com/in/seu-link" target="_blank">Meu LinkedIn</a></p>
+        <p>🐙 <a href="https://github.com/joaoprior" target="_blank">Meu GitHub</a></p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 João Prior — Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
-
-
